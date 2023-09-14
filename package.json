@@ -1,0 +1,22 @@
+{
+  "name": "shared-react-component-example",
+  "version": "1.0.0",
+  "description": "an example module demonstracting",
+  "main": "build/index.js",
+  "repository": "https://github.com/muktipati/shared-react-component-example.git",
+  "author": "Muktikanta",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^16.2.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1"
+  },
+  "scripts": {
+    "build": "babel src -d build",
+    "prepare": "yarn run build"
+  }
+}
